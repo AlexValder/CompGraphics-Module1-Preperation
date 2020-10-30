@@ -3,15 +3,15 @@ import numpy as np
 p1 = np.array([-4.0, 22.0, 1.0])
 p2 = np.array([-11.0, -6.0, 1.0])
 
-T = np.matrix([[1.0, 0.0, 17.0],
+T = np.matrix([[1.0, 0.0, 17.0], # Transform origin to align with x=17
                 [0.0, 1.0, 0.0],
                 [0.0, 0.0, 1.0]])
 
-M = np.matrix([[-1.0, 0.0, 0.0],
+M = np.matrix([[-1.0, 0.0, 0.0], # Mirror around Y
                 [0.0, 1.0, 0.0],
                 [0.0, 0.0, 1.0]])
 
-T1 = np.matrix([[1.0, 0.0, -17.0],
+T1 = np.matrix([[1.0, 0.0, -17.0], # Transform origin back
                 [0.0, 1.0, 0.0],
                 [0.0, 0.0, 1.0]])
 
