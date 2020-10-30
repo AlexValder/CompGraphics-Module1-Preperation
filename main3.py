@@ -19,4 +19,3 @@ R = np.matrix([[np.cos(deg), 0.0, -np.sin(deg), 0.0], # Rotation matrix around o
                 [0.0, 0.0, 0.0, 1.0]])
 
 print(T1.dot(R).dot(T).dot(A))
-
